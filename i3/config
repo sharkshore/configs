@@ -29,6 +29,9 @@ exec --no-startup-id dex --autostart --environment i3
 #notifier
 exec --no-startup-id dunst &
 
+# Background
+exec_always --no-startup-id feh --bg-scale /home/$USER/Pictures/cotswolds.jpg
+
 ## Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
 bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
@@ -202,10 +205,10 @@ mode "resize" {
         bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 1 px
+        bindsym Down resize grow height 1 px
+        bindsym Up resize shrink height 1 px
+        bindsym Right resize grow width 1 px
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"

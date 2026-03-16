@@ -1,14 +1,7 @@
 font_family Terminess Nerd Font Mono
-font_size 14
+font_size 16
 
 tab_bar_style powerline
 map ctrl+shift+f new_tab_with_cwd
 
 allow_remote_control yes
-
-
-
-# BEGIN_KITTY_THEME
-# Everforest Dark Medium
-include current-theme.conf
-# END_KITTY_THEME
