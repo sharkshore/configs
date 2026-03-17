@@ -31,6 +31,8 @@ exec --no-startup-id dunst &
 
 # key repeat speed
 exec_always --no-startup-id xset r rate 140 50
+# Disable repeating q
+exec_always --no-startup-id xset -r 24
 
 
 
