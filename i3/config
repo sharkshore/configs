@@ -30,7 +30,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id dunst &
 
 # key repeat speed
-exec_always --no-startup-id xset r rate 40 40
+exec_always --no-startup-id xset r rate 250 30
 # Disable repeating q
 exec_always --no-startup-id xset -r 24
 
